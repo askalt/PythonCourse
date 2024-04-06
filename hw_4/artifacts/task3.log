@@ -1,0 +1,22 @@
+msg1
+[2024-04-06 11:16:35.562378]: a: received msg1, go process
+
+msg2
+hello!
+[2024-04-06 11:16:40.568502]: a: received msg2, go process
+
+[2024-04-06 11:16:40.569071]: b: received msg1, go encode
+
+[2024-04-06 11:16:45.571232]: a: received hello!, go process
+
+[2024-04-06 11:16:45.571570]: b: received msg2, go encode
+
+[2024-04-06 11:16:50.573607]: b: received hello!, go encode
+
+SUPER_MSG
+[2024-04-06 11:17:00.296083]: a: received SUPER_MSG, go process
+
+[2024-04-06 11:17:05.296832]: b: received super_msg, go encode
+
+^C[2024-04-06 11:17:07.763006]: main: joined
+
